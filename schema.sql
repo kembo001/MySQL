@@ -29,14 +29,14 @@ INSERT INTO department(name)
 VALUES("HR"), ("Tech"), ("Admin"), ("Management");
 
 INSERT INTO role(title, salary, department_id)
-VALUES ("Office Manager",100000.00,1),
-       ("Director",80000.00,1),
-       ("Account Manager",160000.00,2),
-       ("Accountant",125000.00,2),
-       ("Teacher",150000.00,3),
-       ("Software Engineer",120000.00,3),
-       ("Quataerback",250000.00,4),
-       ("Doctor",190000.00,4);
+VALUES ("Office Manager",45345,1),
+       ("Director",343464,2),
+       ("Account Manager",346346,3),
+       ("Accountant",4363463,4),
+       ("Teacher",3464346,5),
+       ("Software Engineer",43634535,6),
+       ("Quataerback",5346434,7),
+       ("Doctor",463345356,8);
 
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
 VALUES ("Brandon","Kemboi",1,null),
